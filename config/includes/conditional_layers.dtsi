@@ -6,6 +6,10 @@
             if-layers = <SYM NUM>;
             then-layer = <FUNC>;
         };
+        toggle_qwerty {
+            if-layers = <BASE_QWERTY>;
+            then-layer = <BASE_WRKMN>;
+        };
     };
 
 };
