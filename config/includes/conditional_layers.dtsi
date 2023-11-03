@@ -7,10 +7,8 @@
             then-layer = <FUNC>;
         };
         toggle_qwerty {
-            layers = <BASE_QWERTY>;
             if-layers = <BASE_QWERTY>;
             then-layer = <BASE_WRKMN>;
         };
     };
-
 };
