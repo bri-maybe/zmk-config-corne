@@ -6,5 +6,9 @@
             key-positions = <24 35>;
             bindings = <&tog BASE_QWERTY>;
         };
+        combo_caps {
+            timeout-ms = <50>;
+            key-positions = <29 30>;
+            bindings = <&kp CAPS>;
     };
 };
