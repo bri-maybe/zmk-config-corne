@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: bri-maybe
+      url-base: https://github.com/bri-maybe
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: bri-maybe
       revision: main
       import: app/west.yml
   self:
